@@ -1,0 +1,25 @@
+    table{
+        border: 1px solid;
+        width: 80%;
+     /*robi ramke stala i szeroskosc wyswietlania ustawia na 80%*/
+    }
+    td{
+    border: 1px dotted;
+    /*kropkuje wnetrze tabelki*/
+    }
+
+    #identyfikator{
+        background-color: aqua;
+        /*    # - podswietla tlo pola oznaczonego identyfikatorem id */
+    }
+
+    .mojaKlasa{
+        color: #ba722b;
+        /*
+            .mojaKlasa -podswitla rekordy zaznaczone klasa mojaKlasa*/
+    }
+
+    mojaKlasa.mojaDrugaKlasa{
+        background-color: red;
+        /*podswietla rekordy nalezace do dwoch klas*/
+    }

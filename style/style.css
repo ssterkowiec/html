@@ -1,0 +1,31 @@
+    body{
+    background-color: aqua;
+}
+    p{
+    background-color: blue;
+}
+    div{
+    font-size: 24px;
+}
+
+    img{
+        margin: auto;
+        display: block;
+        /*musi byc zeby wysrodkowalo obrazelk*/
+        border-color: black;
+        border-width: medium;
+        border-style: dashed;
+        border-radius: 25px;
+        /*zaokrąglenie krawedzi obrazka*/
+    }
+
+    .list{
+        list-style-type: upper-roman;
+        list-style-position: inside;
+        position: absolute;
+        /*zawsze w tym samym miejscu*/
+        top: 2px;
+        right: 450px;
+        visibility: visible;
+        /*widzialna lub niewidzialna- hidden*/
+    }
