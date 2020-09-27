@@ -29,3 +29,36 @@
         visibility: visible;
         /*widzialna lub niewidzialna- hidden*/
     }
+
+    a {
+        text-decoration: none;
+        /*usuwa wsyzstkie dekoracje na danym tekscie - w tym przypadku tekscie odnosnika a */
+
+    }
+    a:link{
+        color: blue;
+    }
+    :visited{
+        color: green;
+    }
+
+    a:active{
+        color: red;
+        /*podczas naaciskania myszka na link podswietla sie na czerwowo*/
+    }
+
+    a:hover {
+        color: orange;
+        margin-top: 5px;
+        margin-left: 5px;
+
+        /*podczas najechana myszka na link podwietla na fioletowo* UWSTAWIAJAC MARGINES MOZNA UZYSKAC EKET PRZESUNIECIA PO NAJECHANIU/
+     */
+    }
+
+    p:first-letter{
+        font-size: 45px;    /* uswiawiamy wielkosc pierwszej litery*/
+    }
+
+    li:nth-child(2){
+        color: red;}        /* wyswietla na czerwowo n-ty element z listy*/
